@@ -1,0 +1,475 @@
+/*weixin.css*/
+
+html{
+	font-size: 62.5%;
+	font-family: "微软雅黑";
+	background-color: rgba(204,204,204,0.2);
+
+}
+
+.w{
+	width: 100%;
+	overflow: hidden;
+}
+
+.main{
+	/*width: */
+	width: 100%;
+	/*height: calc(100vh - 10rem);*/
+
+}
+
+.weixin-list{
+	width: 100%;
+
+	display: none;
+	margin-top: 5rem;
+
+}
+
+.weixin-list ul{
+	width: 100%;
+}
+
+.weixin-list li{
+	width: 100%;
+	height: 5.9rem;
+	border-bottom: 0.1rem solid rgba(204,204,204,0.3);
+	overflow: hidden;
+}
+
+.weixin-list img{
+	width: 4.9rem;
+	height: 4.9rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem; //1+4.9 = 5.9rem
+
+	display: inline-block;
+
+	float: left;
+}
+
+.weixin-list .right{
+	display: block;
+	margin-left: 6.0rem;
+	margin-top: 0.5rem;
+	height: 4.9rem;
+	margin-bottom: 0.5rem;
+	/*background-color: #ccc;*/
+}
+
+.weixin-list .top{
+	height: 50%;
+	width: 100%;
+	/*border-bottom: 1px solid red;*/
+}
+
+.weixin-list .top .name{
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: black;	
+
+	float: left;
+}
+
+.weixin-list .top .time{
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	
+	color: #999;
+	float: right;
+	text-indent: -2rem;
+}
+
+/*.weixin-list .top */
+.weixin-list .right p{
+	font-size: 1.6rem;
+	line-height: 2.0rem;
+
+	color: #777;
+}
+
+
+.contact-list{
+	display: none;
+	margin-top: 5rem;
+
+	background-color: rgba(204,204,204,0.3);
+}
+
+.contact-list .nav ul{
+	background-color: white;
+	border-bottom: white;
+}
+
+.contact-list ul{
+	width: 100%;
+}
+
+.contact-list .nav li{
+	width: 95%;
+	height: 4rem;
+	margin:0 2.5%;
+	border-bottom: 0.1rem solid rgba(204,204,204,0.3); 
+	text-indent: 4rem;
+
+	font-size: 1.6rem;
+	
+}
+
+.contact-list li:last-child{
+	border-bottom: none;
+}
+
+.contact-list a{
+	font-size: 1.8rem;
+	line-height: 4rem;
+	text-indent: 8rem;
+	text-decoration: none;
+}
+
+
+.contact-list a:visited{
+	color: black;
+}
+
+.contact .my-contact{
+	width: 100%;
+}
+
+.my-contact .parent{
+	/*margin-top: 2.0rem;*/
+	width: 100%;
+}
+
+.my-contact .parent>li{
+	margin-top: 2.0rem;
+	/*width: 95%;*/
+	display: block;
+	background-color: white;
+
+	/*width: */
+
+	/*height: 4rem;*/
+}
+
+.my-contact .child {
+	/*height: */
+	width: 95%;
+	margin: 0 auto;
+}
+
+.my-contact .child>li{
+	display: block;
+	height: 4rem;
+	line-height: 4rem;
+	border-bottom: 1px solid rgba(240,240,240,1);
+	text-indent: 4.0rem;
+
+	font-size: 1.6rem;
+	line-height: 4rem;
+}
+
+.my-contact .child>li:first-child{
+	border-bottom: none;
+}
+
+.my-contact .child a{
+	font-size: 1.6rem;
+	line-height: 4rem;
+}
+
+.my-contact::after{
+	display: block;
+	content: "";
+	width: 100%;
+	height: 5rem;
+	/*background-color: #ccc;*/
+}
+
+.discover-list{
+	display: none;
+	margin-top: 5rem;
+	width: 100%;
+	/*height*/
+}
+
+
+.discover-list .list>li{
+	margin: 2rem  auto 0 auto;
+	margin-top: 2rem;
+	width: 100%;
+
+	background-color: white;
+}
+
+.discover-list .list>li ul{
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+.discover-list .list>li a{
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	font-size: 1.6rem;
+	line-height: 4.0rem;
+	
+	text-indent: 4rem;
+}
+
+.discover-list .list>li ul li{
+	border-bottom: 1px solid #ccc;
+}
+
+.discover-list .list>li ul li:last-child{
+	border-bottom: none;
+}
+
+.me-list{
+	margin-top: 5rem;
+	width: 100%;
+	/*height*/
+}
+
+
+.me-list .list>li{
+	margin: 2rem  auto 0 auto;
+	margin-top: 2rem;
+	width: 100%;
+
+	background-color: white;
+}
+
+.me-list .list>li ul{
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+.me-list .list>li a{
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	font-size: 1.6rem;
+	line-height: 4.0rem;
+	
+	text-indent: 4rem;
+}
+
+.me-list .list>li ul li{
+	border-bottom: 1px solid #ccc;
+}
+
+.me-list .list>li ul li:last-child{
+	border-bottom: none;
+}
+
+
+
+header{
+	width: 100%;
+	height: 5rem;
+
+	background-color: #333;
+
+	position: fixed;
+	top: 0;
+}
+
+header span{
+	display: inline-block;
+	
+	position: absolute;
+	top:0;
+	left: 0;
+
+	font-size: 2rem;
+	line-height: 5rem;
+	text-align: center;
+
+	color: white;
+
+	width: 6rem;
+	height: 100%;
+}
+
+
+header .icon{
+	display: inline-block;
+
+	width: 5rem;
+	height: 100%;
+
+	position: absolute;
+	top:0;
+
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+header .icon-search{
+	right:5rem;
+	background-image: url("../icon-search.png");
+	
+	/*background-color: red;*/
+	z-index: 100;
+
+} 
+
+header .icon-add{
+	right:0rem;
+	background-image:url("../icon-add.png");
+	/*background-color: red;*/
+}
+
+header .menu{
+	position: fixed;
+
+	display: none;
+
+	top: 5rem;
+	right: 4%;
+
+	width: 50%;
+	height: 20rem;
+	background-color: #333;
+	border-top: 0.1rem solid rgba(000,000,000,0.3); 
+}
+
+header .menu ul{
+	display: block;
+	height: 100%;
+	/*border-bottom: 0.1rem;*/
+}
+
+header .menu li{
+	position: relative;
+	display: block;
+	height: 3.9rem;
+	border-bottom: 0.1rem solid #000;
+}
+
+header .menu i{
+	font-size: 1.6rem;
+	line-height: 3.9rem;
+
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	text-indent: 5rem;
+
+	color: white;
+	
+}
+
+
+header .menu .icon{
+	/*display: block;*/
+
+/*background-image: url(../icon-);*/
+
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header .menu .icon-liaotian{
+	background-image: url(../liaotian.png);
+	background-position: 10% center;
+}
+
+header .menu .icon-addfriend{
+	background-image: url(../addfriend.png);
+	background-position: 10% center;
+}
+
+header .menu .icon-saoyisao{
+	background-image: url(../saoyisao.png);
+	background-position: 10% center;
+}
+
+header .menu .icon-fukuan{
+	background-image: url(../fukuan.png);
+	background-position: 10% center;
+}
+
+header .menu .icon-fankui{
+	background-image: url(../icon-fankui.png);
+	background-position: 10% center;
+}
+
+header::after{
+	content: "";
+
+}
+
+footer{
+	display: block;
+	position: fixed;
+	bottom: 0;
+
+	width: 100%;
+	height: 5rem;
+	background-color: white;
+}
+
+footer ul{
+	display: flex;
+	flex-wrap: row nowrap;
+	width: 100%;
+	height: 100%;
+
+	border-top: 0.1rem solid rgba(204,204,204,0.3);
+}
+
+
+
+footer li{
+	flex: 25%;
+	text-align: center;
+	margin: 0 auto;
+	
+	position: relative;
+
+
+	font-size: 1.4rem;
+	line-height: 5rem;
+}
+
+footer .icon{
+
+	display: inline-block;
+
+	height: 100%;
+	width: 99%;
+
+	background-repeat: no-repeat;
+	background-position: center 10%;
+
+	line-height: 7.5rem;
+/*	width: 100%;
+	height: 100%;*/
+}
+
+footer .icon-weixin{
+	background-image: url(../icon-weixin.png);
+}
+
+footer .icon-contact{
+	background-image: url(../icon-contact.png);
+	
+}
+footer .icon-discover{
+	background-image: url(../icon-discover.png);
+}
+
+footer .icon-me{
+	background-image: url(../icon-me.png);
+	
+}
