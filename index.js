@@ -28,6 +28,8 @@ for(var i=0;i<list.length;i++){
 					list[j].innerHTML = arrLi[2*j];
 					list[j].style.color="#999";
 			}
+			list[i].innerHTML=arrLi[2*i+1];
+			list[i].style.color = "#46c01B";
 		}
 	})(i)
 }
