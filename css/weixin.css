@@ -16,14 +16,16 @@ html{
 	/*width: */
 	width: 100%;
 	/*height: calc(100vh - 10rem);*/
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 
 }
 
 .weixin-list{
 	width: 100%;
+	display: block;
 
-	display: none;
-	margin-top: 5rem;
+	background-color: white;
 
 }
 
@@ -57,7 +59,7 @@ html{
 	margin-top: 0.5rem;
 	height: 4.9rem;
 	margin-bottom: 0.5rem;
-	/*background-color: #ccc;*/
+	/*background-color: white;*/
 }
 
 .weixin-list .top{
@@ -94,8 +96,6 @@ html{
 
 .contact-list{
 	display: none;
-	margin-top: 5rem;
-
 	background-color: rgba(204,204,204,0.3);
 }
 
@@ -140,23 +140,16 @@ html{
 }
 
 .my-contact .parent{
-	/*margin-top: 2.0rem;*/
 	width: 100%;
 }
 
 .my-contact .parent>li{
 	margin-top: 2.0rem;
-	/*width: 95%;*/
 	display: block;
 	background-color: white;
-
-	/*width: */
-
-	/*height: 4rem;*/
 }
 
 .my-contact .child {
-	/*height: */
 	width: 95%;
 	margin: 0 auto;
 }
@@ -181,19 +174,9 @@ html{
 	line-height: 4rem;
 }
 
-.my-contact::after{
-	display: block;
-	content: "";
-	width: 100%;
-	height: 5rem;
-	/*background-color: #ccc;*/
-}
-
 .discover-list{
 	display: none;
-	margin-top: 5rem;
 	width: 100%;
-	/*height*/
 }
 
 
@@ -230,9 +213,8 @@ html{
 }
 
 .me-list{
-	margin-top: 5rem;
+	display: none;
 	width: 100%;
-	/*height*/
 }
 
 
@@ -464,10 +446,12 @@ footer .icon{
 */
 footer .icon-menu-00{
 	background-image: url(../icon-menu-00.png);
+
 }
 
 footer .icon-menu-01{
 	background-image: url(../icon-menu-01.png);
+	color: #46c01B;
 }
 
 footer .icon-menu-10{
