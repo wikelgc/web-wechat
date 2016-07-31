@@ -4,6 +4,8 @@ window.onload = function(){
 }
 
 
+//footer底部的事件绑定
+
 var footer = document.getElementsByTagName('footer')[0];
 var list = footer.getElementsByTagName("li");
 var wechat_list =document.getElementsByClassName("weixin-list")[0];
@@ -13,18 +15,19 @@ var me_list =document.getElementsByClassName("me-list")[0];
 var arr = [wechat_list,contact_list,discover_list,me_list];
 
 
-
 for(var i=0;i<list.length;i++){
 	(function(i){
 		return list[i].onclick=function(){
+			var arrLi = ['<i class="icon icon-menu-00">微信</i>','<i class="icon icon-menu-01">微信</i>',
+										'<i class="icon icon-menu-10">通讯录</i>','<i class="icon icon-menu-11">通讯录</i>',
+										'<i class="icon icon-menu-20">发现</i>','<i class="icon icon-menu-21">发现</i>',
+										'<i class="icon icon-menu-30">我</i>','<i class="icon icon-menu-31">我</i>'];
 			display(i);
-			console.log(1);
 
 			for(j=0;j<list.length;j++){
-				list[j].style.color="#999";
+					list[j].innerHTML = arrLi[2*j];
+					list[j].style.color="#999";
 			}
-			list[i].style.color="#46c018";
-			list[i].style.backgroundImgae = "url(../icon-menu-0)";			
 		}
 	})(i)
 }
@@ -56,6 +59,7 @@ adds.onclick = function(){
 }
 
 
+//
 
 
 

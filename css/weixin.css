@@ -458,19 +458,38 @@ footer .icon{
 	height: 100%;*/
 }
 
-footer .icon-weixin{
+/*footer .icon-weixin{
 	background-image: url(../icon-weixin.png);
 }
-
-footer .icon-contact{
-	background-image: url(../icon-contact.png);
-	
-}
-footer .icon-discover{
-	background-image: url(../icon-discover.png);
+*/
+footer .icon-menu-00{
+	background-image: url(../icon-menu-00.png);
 }
 
-footer .icon-me{
-	background-image: url(../icon-me.png);
-	
+footer .icon-menu-01{
+	background-image: url(../icon-menu-01.png);
+}
+
+footer .icon-menu-10{
+	background-image: url(../icon-menu-10.png);
+}
+
+footer .icon-menu-11{
+	background-image: url(../icon-menu-11.png);
+}
+
+footer .icon-menu-20{
+	background-image: url(../icon-menu-20.png);
+}
+
+footer .icon-menu-21{
+	background-image: url(../icon-menu-21.png);
+}
+
+footer .icon-menu-30{
+	background-image: url(../icon-menu-30.png);
+}
+
+footer .icon-menu-31{
+	background-image: url(../icon-menu-31.png);
 }
