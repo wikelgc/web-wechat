@@ -376,32 +376,33 @@ header .menu .icon{
 /*background-image: url(../icon-);*/
 
 	background-repeat: no-repeat;
-	background-position: center;
+	/*background-position: center;*/
+	background-position: 1.5rem center;
 }
 
 header .menu .icon-liaotian{
 	background-image: url(../liaotian.png);
-	background-position: 10% center;
+	
 }
 
 header .menu .icon-addfriend{
 	background-image: url(../addfriend.png);
-	background-position: 10% center;
+	/*background-position: 10% center;*/
 }
 
 header .menu .icon-saoyisao{
 	background-image: url(../saoyisao.png);
-	background-position: 10% center;
+	/*background-position: 10% center;*/
 }
 
 header .menu .icon-fukuan{
 	background-image: url(../fukuan.png);
-	background-position: 10% center;
+	/*background-position: 10% center;*/
 }
 
-header .menu .icon-fankui{
-	background-image: url(../icon-fankui.png);
-	background-position: 10% center;
+header .menu .icon-feedback{
+	background-image: url(../icon-feedback.png);
+	/*background-position: 10% center;*/
 }
 
 header::after{

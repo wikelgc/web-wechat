@@ -24,16 +24,11 @@ for(var i=0;i<list.length;i++){
 				list[j].style.color="#999";
 			}
 			list[i].style.color="#46c018";
-			// list[i].style.backgroundImgae = "url(./icon-menu-"+i+".png)";
-				list[i].style.backgroundImgae = "url(../icon-menu-0)";
-					// list[i].style.backgroundColor = "#333";
-			
+			list[i].style.backgroundImgae = "url(../icon-menu-0)";			
 		}
 	})(i)
 }
 
-
-// list[1].onclick = function(1)
 
 function display(number){
 	for(var i=0;i<arr.length;i++){
@@ -45,15 +40,13 @@ function display(number){
 
 
 // add 的事件绑定
-
 var header = document.getElementsByTagName("header")[0];
 var adds  = header.getElementsByClassName("adds")[0];
 var menu = header.getElementsByClassName("menu")[0];
 
 var timer = 0;
 adds.onclick = function(){
-	console.log(15);
-	timer++;
+	console.log("timer:"+timer);
 	if(timer%2==0){
 			menu.style.display = "block";
 	}else{
