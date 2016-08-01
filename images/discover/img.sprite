@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="img" IsPhone="false" SpriteImgFileType="Png" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_18.png" LocationX="0" LocationY="0" />
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_24.png" LocationX="0" LocationY="80" />
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_28.png" LocationX="0" LocationY="160" />
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_05.png" LocationX="0" LocationY="240" />
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_11.png" LocationX="0" LocationY="320" />
+    <Sprite Path="Screenshot_2016-07-31-21-32-15_com.tencent.mm_15.png" LocationX="0" LocationY="400" />
+  </SpriteList>
+</SpriteFile>
