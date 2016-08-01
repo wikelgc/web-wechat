@@ -295,13 +295,73 @@ html{
 
 
 .me-list .list>li a{
+
 	display: inline-block;
+	position: relative;
+
 	width: 100%;
 	height: 4rem;
 	font-size: 1.6rem;
 	line-height: 4.0rem;
 	
 	text-indent: 4rem;
+}
+
+.me-list .list i{
+	/*width: */
+	position: absolute;
+	float: left;
+
+	left: 0.5rem;
+	top: 0.7rem;
+	display: inline-block;
+	/*position: relative;*/
+	/*left: -2.4rem;*/
+
+	background-image: url(../images/me/me.png);
+	background-repeat: no-repeat;
+
+	width: 2.4rem;
+	height: 2.4rem;
+
+/*	width: 24px;
+	height: 20px;	*/
+}
+
+.me-list .list .details{
+	background-position: 0 7.2rem;
+		background-size:cover;
+}
+
+.me-list .list .photo{
+	background-position: 0 -7.2rem;
+		background-size:cover;
+}
+
+.me-list .list .collet{
+	background-position: 0 -9.6rem;
+		background-size:cover;
+}
+
+.me-list .list .wallet{
+	background-position: 0 -12.0rem;
+		background-size:cover;
+}
+
+
+.me-list .list .card{
+	background-position: 0 0;
+		background-size:cover;
+}
+
+.me-list .list .expresstion{
+	background-position: 0 -2.4rem;
+		background-size:cover;
+}
+
+.me-list .list .setting{
+	background-position: 0 -4.8rem;
+		background-size:cover;
 }
 
 .me-list .list>li ul li{
