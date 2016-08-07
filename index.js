@@ -1,6 +1,12 @@
 // index.js
 window.onload = function(){
+	setTimeout(function(){
+		var index = document.getElementsByClassName("index")[0];
+		var w = document.getElementsByClassName("w")[0];
 
+		index.style.display = "none";
+		w.style.display = "block";
+	},1000);
 }
 
 

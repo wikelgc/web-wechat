@@ -7,7 +7,18 @@ html{
 
 }
 
+.index{
+	display: block;
+	background-image: url(../images/index.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+}
+
 .w{
+	display: none;
 	width: 100%;
 	overflow: hidden;
 }
